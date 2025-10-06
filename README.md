@@ -1,1 +1,93 @@
 # Task-e
+<!--
+Author: Jasper Myllymäki
+Date: 2025-10-06
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Weekly Timetable - Task E</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="content">
+    <header class="site-header">
+      <h1>Weekly Timetable</h1>
+      <p class="intro">Personalize this page with your name, group and your courses. The table marks whether you have lectures scheduled (✅) or not (❌).</p>
+    </header>
+
+    <section class="student-info">
+      <p><strong>Student:</strong> Jasper Myllymäki</p>
+      <p><strong>Group:</strong> Group B</p>
+    </section>
+
+    <section class="table-wrap">
+      <table class="timetable" aria-label="Weekly timetable">
+        <thead>
+          <tr>
+            <th>Course</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th> <!-- Added Friday -->
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Existing example rows extended for Fri -->
+          <tr>
+            <td>Course name A</td>
+            <td>✅</td>
+            <td>✅</td>
+            <td>❌</td>
+            <td>❌</td>
+            <td>❌</td>
+          </tr>
+          <tr>
+            <td>Course name B</td>
+            <td>✅</td>
+            <td>✅</td>
+            <td>❌</td>
+            <td>❌</td>
+            <td>❌</td>
+          </tr>
+
+          <!-- Your own courses: at least two rows (example entries) -->
+          <tr>
+            <td>Networks</td>
+            <td>✅</td>
+            <td>✅</td>
+            <td>✅</td>
+            <td>❌</td>
+            <td>❌</td>
+          </tr>
+          <tr>
+            <td>Cybersecurity</td>
+            <td>❌</td>
+            <td>✅</td>
+            <td>❌</td>
+            <td>✅</td>
+            <td>❌</td>
+          </tr>
+          <tr>
+            <td>Discord Music Bot (Project)</td>
+            <td>❌</td>
+            <td>❌</td>
+            <td>✅</td>
+            <td>✅</td>
+            <td>❌</td>
+          </tr>
+          <!-- Add more rows here as needed -->
+        </tbody>
+      </table>
+    </section>
+
+    <section class="other-content">
+      <h2>Notes</h2>
+      <p>Make sure to update the Student and Group fields to your real values. Add or remove course rows to match your actual timetable.</p>
+    </section>
+  </div>
+</body>
+</html>
