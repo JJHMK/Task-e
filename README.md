@@ -38,7 +38,7 @@ Date: 2025-10-06
         <tbody>
           <!-- Existing example rows extended for Fri -->
           <tr>
-            <td>Course name A</td>
+            <td>Mekaniikka</td>
             <td>✅</td>
             <td>✅</td>
             <td>❌</td>
@@ -46,7 +46,7 @@ Date: 2025-10-06
             <td>❌</td>
           </tr>
           <tr>
-            <td>Course name B</td>
+            <td>Integraali laskenta</td>
             <td>✅</td>
             <td>✅</td>
             <td>❌</td>
@@ -56,7 +56,7 @@ Date: 2025-10-06
 
           <!-- Your own courses: at least two rows (example entries) -->
           <tr>
-            <td>Networks</td>
+            <td>Web kehitys</td>
             <td>✅</td>
             <td>✅</td>
             <td>✅</td>
@@ -64,7 +64,7 @@ Date: 2025-10-06
             <td>❌</td>
           </tr>
           <tr>
-            <td>Cybersecurity</td>
+            <td>ICT projekti</td>
             <td>❌</td>
             <td>✅</td>
             <td>❌</td>
@@ -91,3 +91,4 @@ Date: 2025-10-06
   </div>
 </body>
 </html>
+
