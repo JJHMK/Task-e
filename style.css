@@ -1,0 +1,92 @@
+/* ====== General Styles ====== */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.site-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.site-header h1 {
+  color: #333;
+}
+
+.intro {
+  color: #555;
+}
+
+.student-info {
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-left: 4px solid #4a90e2;
+}
+
+/* ====== Timetable Styles ====== */
+.table-wrap {
+  overflow-x: auto;
+}
+
+.timetable {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.timetable th,
+.timetable td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.timetable th {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.timetable tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* ====== Notes Section ====== */
+.other-content {
+  margin-top: 30px;
+  background: #f7f7f7;
+  padding: 15px;
+  border-left: 4px solid #4a90e2;
+}
+
+/* ====== Responsive Design ====== */
+
+/* ≤ 768px: smaller margins, only student info + table visible */
+@media (max-width: 768px) {
+  .content {
+    margin: 0 5%;
+  }
+
+  .site-header,
+  .other-content {
+    display: none;
+  }
+}
+
+/* ≤ 640px: even smaller margins, only table visible */
+@media (max-width: 640px) {
+  .content {
+    margin: 0 1%;
+  }
+
+  .student-info {
+    display: none;
+  }
+}
